@@ -9,7 +9,7 @@ Script Purpose:
     The script loads data into the newly created tables.
 ===============================================================================
 */
-
+CREATE DATABASE bronze_ecom;
 -- CUSTOMER INFORMATION
 DROP TABLE IF EXISTS bronze_ecom.olist_customers_dataset;
 CREATE TABLE bronze_ecom.olist_customers_dataset(
